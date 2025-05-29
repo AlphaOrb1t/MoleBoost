@@ -1,0 +1,18 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cwrp4o0se0wch"
+valid=false
+
+[deps]
+
+source_file="res://Audio/SFX - Main engine thrust.ogg"
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
