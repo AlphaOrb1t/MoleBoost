@@ -10,10 +10,14 @@ config_version=5
 
 [application]
 
-config/name="Mole Boost"
-run/main_scene="uid://bkof6uwqoqr07"
+config/name="Booster"
+run/main_scene="uid://k7e40vuqn3qu"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [input]
 

@@ -3,11 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cwrp4o0se0wch"
-valid=false
+path="res://.godot/imported/SFX - Main engine thrust.ogg-b0445ad498c630c53737e51ed5f04688.oggvorbisstr"
 
 [deps]
 
 source_file="res://Audio/SFX - Main engine thrust.ogg"
+dest_files=["res://.godot/imported/SFX - Main engine thrust.ogg-b0445ad498c630c53737e51ed5f04688.oggvorbisstr"]
 
 [params]
 

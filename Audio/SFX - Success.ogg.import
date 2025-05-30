@@ -3,11 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://br7fg3v1588ee"
-valid=false
+path="res://.godot/imported/SFX - Success.ogg-0e311af4ef89cb20aacf99fbf8fe8e9d.oggvorbisstr"
 
 [deps]
 
 source_file="res://Audio/SFX - Success.ogg"
+dest_files=["res://.godot/imported/SFX - Success.ogg-0e311af4ef89cb20aacf99fbf8fe8e9d.oggvorbisstr"]
 
 [params]
 

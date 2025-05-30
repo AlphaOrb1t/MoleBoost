@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4a43450yku5q"
+path="res://.godot/imported/Jammin Bread.mp3-d3a30621e9b3af20968ecb1dd21bb668.mp3str"
+
+[deps]
+
+source_file="res://Audio/Jammin Bread.mp3"
+dest_files=["res://.godot/imported/Jammin Bread.mp3-d3a30621e9b3af20968ecb1dd21bb668.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
