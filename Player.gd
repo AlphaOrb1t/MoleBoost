@@ -21,7 +21,6 @@ var is_transitioning: bool = false  #this is for stopping "if" checks in _on_bod
 @onready var success_particles: GPUParticles3D = $SuccessParticles
 
 
-
 #Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if Input.is_action_pressed("boost"):
@@ -49,8 +48,9 @@ func _process(delta: float) -> void:
 	else:
 		left_booster_particles.emitting = false
 	
-	if Input.is_action_just_pressed("ui_cancel"):
-		get_tree().quit()
+	#Commented because this is used in the PauseMenu script
+	#if Input.is_action_just_pressed("pause"):
+		#get_tree().quit()
 
 #This is a "signal", it can be found under the Node panel beside the Inspector panel
 func _on_body_entered(body: Node) -> void:

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://cx4viq1b8pwbv"]
+[gd_scene load_steps=24 format=3 uid="uid://cx4viq1b8pwbv"]
 
 [ext_resource type="Script" uid="uid://0np6sc7vgqyv" path="res://Player.gd" id="1_4flbx"]
 [ext_resource type="AudioStream" uid="uid://dp6fntn7r7p6e" path="res://Audio/SFX - Death Explosion.ogg" id="2_onrkg"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dcecb8hw7dbrv" path="res://Particles/explosion_particles.tscn" id="6_2hs0m"]
 [ext_resource type="PackedScene" uid="uid://jfwajmrh6ca7" path="res://Particles/success_particles.tscn" id="7_1jxqw"]
 [ext_resource type="Material" uid="uid://gl118kd158k0" path="res://Materials/ShipRedMaterial.tres" id="8_dw050"]
+[ext_resource type="PackedScene" uid="uid://83tqgwy8jfjg" path="res://Menu/pause_menu.tscn" id="9_b26j0"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_hqtel"]
 
@@ -219,5 +220,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.432, 0)
 material_override = ExtResource("8_dw050")
 mesh = SubResource("CylinderMesh_nvl01")
 skeleton = NodePath("../..")
+
+[node name="PauseMenu" parent="." instance=ExtResource("9_b26j0")]
+visible = false
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
